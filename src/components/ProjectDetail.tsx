@@ -291,7 +291,7 @@ const ProjectDetail = () => {
                   {project.description}
                 </p>
                 
-                <div className="flex flex-wrap gap-4">
+                {/*<div className="flex flex-wrap gap-4">
                   <button className={`group bg-gradient-to-r ${project.gradient} text-white px-6 py-3 rounded-full font-semibold flex items-center space-x-2 transition-all duration-300 hover:scale-105`}>
                     <Play className="w-5 h-5" />
                     <span>View Demo</span>
@@ -300,8 +300,8 @@ const ProjectDetail = () => {
                     <ExternalLink className="w-5 h-5" />
                     <span>Live Project</span>
                   </button>
-                </div>
-              </div>
+                </div> */}
+              </div> 
 
               {/* Project Image */}
               <div className="relative">
