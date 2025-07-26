@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Download } from 'lucide-react';
+import resumePDF from '../assets/Aravindhan-Resume.pdf';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +39,9 @@ const About = () => {
   };
 
   const handleDownloadResume = () => {
-    window.open('/Aravindhan_Resume_1.pdf', '_blank');
+    //window.open('/Aravindhan_Resume_1.pdf', '_blank');
+    window.open(resumePDF, '_blank');
+    
   };
 
   return (

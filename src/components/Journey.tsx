@@ -12,6 +12,7 @@ import animate from '../assets/adobe-animate.png';
 import filmora from '../assets/filmora.png';
 import premiere from '../assets/premiere-pro.png';
 import indesign from '../assets/indesign.png';
+import resumePDF from '../assets/Aravindhan-Resume.pdf';
 
 const Journey = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -101,7 +102,8 @@ const Journey = () => {
   ];
 */
   const handleDownloadResume = () => {
-    window.open('/Aravindhan_Resume_1.pdf', '_blank');
+    //window.open('/Aravindhan_Resume_1.pdf', '_blank');
+    window.open(resumePDF, '_blank');
   };
 
   return (

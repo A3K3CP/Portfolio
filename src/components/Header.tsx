@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X, Download, ExternalLink } from 'lucide-react';
 import profile from '../assets/profile01.png';
-//import resumePDF from '../assets/Aravindhan-Resume.pdf';
+import resumePDF from '../assets/Aravindhan-Resume.pdf';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,8 +54,8 @@ const Header = () => {
   };
 
   const handleDownloadResume = () => {
-    window.open('/Aravindhan-Resume.pdf', '_blank');
-    //window.open(resumePDF, '_blank');
+    //window.open('/Aravindhan-Resume.pdf', '_blank');
+    window.open(resumePDF, '_blank');
   };
 
   const navItems = [
