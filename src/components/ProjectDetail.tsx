@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, CheckCircle, Play, Award, Users, Zap } from 'lucide-react';
+import profile from '../assets/profile01.png';
+
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
@@ -250,7 +252,7 @@ const ProjectDetail = () => {
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
                 <img 
-                  src="/src/assets/profile-pic-6.png" 
+                  src={profile} alt="Aravindhan P"
                   alt="Aravindhan P"
                   className="w-full h-full object-cover"
                 />

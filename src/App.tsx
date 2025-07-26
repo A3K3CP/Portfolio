@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -13,7 +13,7 @@ import ProjectDetail from './components/ProjectDetail';
 function HomePage() {
   useEffect(() => {
     // Update document title
-    document.title = "Aravindhan P - Creative Designer & Team Lead";
+    document.title = "Aravindhan P - Creative Designer";
     
     // Add smooth scrolling behavior with offset
     const handleSmoothScroll = (e: Event) => {
@@ -73,12 +73,10 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/project/:projectId" element={<ProjectDetail />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/project/:projectId" element={<ProjectDetail />} />
+    </Routes>
   );
 }
 

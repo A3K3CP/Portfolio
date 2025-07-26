@@ -1,6 +1,6 @@
 {
   "name": "vite-react-typescript-starter",
-  "homepage": "https://a3k3cp.github.io/Portfolio",
+  "homepage": "https://A3K3CP.github.io/Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

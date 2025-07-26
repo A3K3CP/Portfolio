@@ -1,5 +1,17 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Calendar, Award, Users, Zap, Crown, Download } from 'lucide-react';
+import photoshop from '../assets/photoshop.png';
+import illustrator from '../assets/illustrator.png';
+import afterEffects from '../assets/after-effects.png';
+import figma from '../assets/figma.png';
+import davinci from '../assets/DaVinci_Resolve.png';
+import canva from '../assets/Canva.png';
+import blender from '../assets/Blender.png';
+import webflow from '../assets/webflow.png';
+import animate from '../assets/adobe-animate.png';
+import filmora from '../assets/filmora.png';
+import premiere from '../assets/premiere-pro.png';
+import indesign from '../assets/indesign.png';
 
 const Journey = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -59,7 +71,22 @@ const Journey = () => {
   ];
 
   const toolsAndTechnologies = [
-    { name: "Adobe Photoshop", icon: "/src/assets/photoshop.png", category: "Design" },
+    { name: "Adobe Photoshop", icon: photoshop, category: "Design" },
+    { name: "Adobe Illustrator", icon: illustrator, category: "Design" },
+    { name: "Adobe After Effects", icon: afterEffects, category: "Motion" },
+    { name: "Figma", icon: figma, category: "UI/UX" },
+    { name: "DaVinci Resolve", icon: davinci, category: "Video" },
+    { name: "Canva", icon: canva, category: "Design" },
+    { name: "Blender", icon: blender, category: "3D" },
+    { name: "Webflow", icon: webflow, category: "Web" },
+    { name: "Adobe Animate", icon: animate, category: "Animation" },
+    { name: "Wondershare Filmora", icon: filmora, category: "Video" },
+    { name: "Premiere Pro", icon: premiere, category: "Video" },
+    { name: "InDesign", icon: indesign, category: "Print" }
+  ];
+
+  /*const toolsAndTechnologies = [
+    { name: "Adobe Photoshop", icon: "./assets/photoshop.png", category: "Design" },
     { name: "Adobe Illustrator", icon: "/src/assets/illustrato.png", category: "Design" },
     { name: "Adobe After Effects", icon: "/src/assets/after-effects.png", category: "Motion" },
     { name: "Figma", icon: "/src/assets/figma.png", category: "UI/UX" },
@@ -72,7 +99,7 @@ const Journey = () => {
     { name: "Premiere Pro", icon: "/src/assets/premiere-pro.png", category: "Video" },
     { name: "InDesign", icon: "/src/assets/indesign.png", category: "Print" }
   ];
-
+*/
   const handleDownloadResume = () => {
     window.open('/Aravindhan_Resume_1.pdf', '_blank');
   };

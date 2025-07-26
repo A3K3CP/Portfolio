@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X, Download, ExternalLink } from 'lucide-react';
+import profile from '../assets/profile01.png';
+//import resumePDF from '../assets/Aravindhan-Resume.pdf';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -52,7 +54,8 @@ const Header = () => {
   };
 
   const handleDownloadResume = () => {
-    window.open('/Aravindhan_Resume_1.pdf', '_blank');
+    window.open('/Aravindhan-Resume.pdf', '_blank');
+    //window.open(resumePDF, '_blank');
   };
 
   const navItems = [
@@ -82,7 +85,7 @@ const Header = () => {
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src="/src/assets/profile-pic-6.png" 
+                    src={profile} alt="Aravindhan P"
                     alt="Aravindhan P"
                     className="w-full h-full object-cover"
                   />
@@ -92,7 +95,7 @@ const Header = () => {
                     Aravindhan P
                   </h1>
                   <p className="text-sm text-slate-300">
-                    Creative Designer & Team Lead
+                    Creative Designer
                   </p>
                 </div>
               </div>
