@@ -122,9 +122,9 @@ const Projects = () => {
                   {projects[activeProject].category}
                 </span>
               </div>
-              <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors duration-200">
+             {/* <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors duration-200">
                 <Play className="w-6 h-6 ml-1" />
-              </button>
+              </button> */}
             </div>
 
             {/* Project Details */}

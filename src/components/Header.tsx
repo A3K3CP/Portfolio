@@ -85,7 +85,7 @@ const Header = () => {
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <img 
-                    src={profile} alt="Aravindhan P"
+                    src={profile}
                     alt="Aravindhan P"
                     className="w-full h-full object-cover"
                   />

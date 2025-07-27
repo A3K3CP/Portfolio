@@ -66,7 +66,7 @@ const Hero = () => {
         <div className={`mb-8 relative transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-8 border-white shadow-2xl">
             <img 
-              src={profile} alt="Aravindhan P"
+              src={profile} 
               alt="Aravindhan P"
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
             />

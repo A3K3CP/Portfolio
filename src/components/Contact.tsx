@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mail, MapPin, Linkedin, MessageCircle, Instagram, Facebook, Youtube, Twitter } from 'lucide-react';
+import { Mail, MapPin, Linkedin, MessageCircle, Phone, Instagram, Facebook, Youtube, Twitter } from 'lucide-react';
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -91,12 +91,11 @@ const Contact = () => {
               {/* Contact Methods */}
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                 <div className="group text-center">
-                  <div className="w-16 h-16 bg-coral-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-coral-400 group-hover:bg-coral-500/30 transition-colors duration-200 mx-auto mb-4 border border-coral-400/20">
-                    <Mail className="w-7 h-7" />
+                  <div className="w-16 h-16 bg-green-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-green-400 group-hover:bg-green-500/30 transition-colors duration-200 mx-auto mb-4 border border-green-400/20">
+                    <Phone className="w-7 h-7" />
                   </div>
-                  <p className="text-slate-400 text-sm mb-2">Email</p>
-                  <p className="text-white font-medium">aravindhan1908</p>
-                  <p className="text-slate-400 text-xs">@gmail.com</p>
+                  <p className="text-slate-400 text-sm mb-2">Phone</p>
+                  <p className="text-white font-medium">+91 82709 69129</p>
                 </div>
 
                 <div className="group text-center">
