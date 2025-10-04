@@ -451,7 +451,7 @@ const ProjectDetail = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
-                onClick={() => navigate('/contact')}
+                onClick={() => navigate('/#contact')}
                 className="bg-coral-500 hover:bg-coral-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
               >
                 Start a Project
