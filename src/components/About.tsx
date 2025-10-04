@@ -41,9 +41,9 @@ const About = () => {
   const handleDownloadResume = () => {
     //window.open('/Aravindhan_Resume_1.pdf', '_blank');
     //window.open(resumePDF, '_blank');
-    const link = document.createElement('a');
-    link.href = resumePDF; // path to your PDF file
-    link.download = 'Aravindhan_Resume.pdf'; // name of the file when downloaded
+    const link = document.createElement("a");
+    link.href = resumePDF; // your file path
+    link.setAttribute("download", "Aravindhan_Resume.pdf"); // file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
