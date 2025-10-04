@@ -176,7 +176,7 @@ const ProjectDetail = () => {
       ]
     },
     others: {
-      title: 'Additional Projects',
+      title: 'Multi-Brand Creative Works',
       subtitle: 'Diverse Creative Portfolio',
       description: 'A collection of diverse projects showcasing versatility across multiple industries and creative disciplines.',
       category: 'Multi-Client Portfolio',
