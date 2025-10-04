@@ -66,7 +66,7 @@ const Projects = () => {
       id: 'others',
       title: 'Multi-Brand Creative Works',
       subtitle: 'Diverse Creative Portfolio',
-      description: 'QDD: Complete branding with print and video assets. Aadhyum Group: Website and logo rework with team collaboration. Galaxy Tours: Logo, branding, and website support. Bluewave Computers: Social media content and video assets.',
+      description: 'A showcase of logos, animations, posters, illustrations, and mixed-media works across campaigns.',
       category: 'Multi-Client Portfolio',
       image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800',
       gradient: 'from-indigo-500 to-indigo-600'

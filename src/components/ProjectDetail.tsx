@@ -16,15 +16,15 @@ const ProjectDetail = () => {
 
   const projectData: { [key: string]: any } = {
     rentasst: {
-      title: 'RentAsst',
+      title: 'Smart Rental Platform',
       subtitle: 'Complete Brand Transformation',
-      description: 'A comprehensive brand identity project that transformed RentAsst from concept to market-ready application with full creative assets.',
+      description: 'A comprehensive brand identity project that transformed a Smart Rental Platform from concept to a market-ready application with full creative assets.',
       category: 'Full Brand Identity',
       image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gradient: 'from-coral-500 to-coral-600',
-      overview: 'RentAsst required a complete brand transformation from ground up. The project encompassed every aspect of visual identity, from logo design to comprehensive marketing materials, ensuring a cohesive brand experience across all touchpoints.',
+      overview: 'Designed the complete identity and product assets for a smart rental management platform that helps users book, manage, and track rentals seamlessly.',
       challenge: 'Create a modern, trustworthy brand identity for a rental assistance platform that appeals to both property owners and tenants while establishing credibility in a competitive market.',
-      solution: 'Developed a comprehensive brand ecosystem with bilingual content support, modern UI/UX design, and extensive marketing materials that positioned RentAsst as a premium, reliable service.',
+      solution: 'Developed a complete brand ecosystem with bilingual content support, modern UI/UX design, and extensive marketing materials, positioning the Smart Rental Platform as a premium, reliable service.',
       deliverables: [
         'Logo Design & Brand Identity System',
         'Mobile & Web UI/UX Design',
@@ -35,7 +35,7 @@ const ProjectDetail = () => {
         'Website Design & Complete Assets',
         'Brand Guidelines & Standards Documentation'
       ],
-      tools: ['Adobe Illustrator', 'After Effects', 'Premiere Pro', 'Figma', 'Photoshop', 'InDesign'],
+      tools: ['Adobe Illustrator', 'After Effects', 'Figma', 'Photoshop', 'Mockflow', 'Canva'],
       achievements: [
         'Complete visual identity overhaul',
         'Multi-language video content production',
@@ -56,13 +56,13 @@ const ProjectDetail = () => {
       ]
     },
     processdrive: {
-      title: 'ProcessDrive & X Odoo',
+      title: 'Enterprise Solutions Hub',
       subtitle: 'Enterprise Solutions & Collaboration',
-      description: 'A comprehensive rebranding project for ProcessDrive with collaborative Odoo integration, featuring custom creatures and enterprise-grade design solutions.',
+      description: 'A comprehensive rebranding project for Enterprise Solutions Hub, featuring custom creatures and enterprise-grade design solutions.',
       category: 'Enterprise Branding',
       image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gradient: 'from-blue-500 to-blue-600',
-      overview: 'ProcessDrive needed a complete brand refresh to align with their enterprise positioning. The project included collaborative work on Odoo integration with custom visual elements.',
+      overview: 'Led design initiatives for an enterprise solutions hub offering multiple business transformation services.',
       challenge: 'Modernize an established brand while maintaining professional credibility and creating unique visual elements for Odoo integration.',
       solution: 'Developed a sophisticated brand identity with custom creatures and animations, ensuring seamless integration across all platforms and touchpoints.',
       deliverables: [
@@ -75,7 +75,7 @@ const ProjectDetail = () => {
         'App Mockups & UI Element Library',
         'Team Collaboration Design Systems'
       ],
-      tools: ['DaVinci Resolve', 'After Effects', 'Illustrator', 'Figma', 'Blender', 'Photoshop'],
+      tools: ['DaVinci Resolve', 'After Effects', 'Illustrator', 'Figma', 'Blender', 'Photoshop', 'Character Animator'],
       achievements: [
         'Streamlined brand identity across platforms',
         'Custom character development for Odoo',
@@ -96,13 +96,13 @@ const ProjectDetail = () => {
       ]
     },
     digitool365: {
-      title: 'Digitool365',
+      title: 'ERP SaaS Platform',
       subtitle: 'Creative Digital Ecosystem',
       description: 'A comprehensive digital creative suite featuring logo design, website assets, explainer videos, and extensive SMO poster designs with documentation.',
       category: 'Digital Creative Suite',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gradient: 'from-purple-500 to-purple-600',
-      overview: 'Digitool365 required a complete digital presence overhaul with focus on interactive content and comprehensive documentation systems.',
+      overview: 'Worked on a cloud-based ERP SaaS platform that streamlines industries like retail, manufacturing, and services.',
       challenge: 'Create a cohesive digital ecosystem that balances creativity with functionality while maintaining professional standards.',
       solution: 'Developed an integrated creative suite with interactive elements, comprehensive documentation, and scalable design systems.',
       deliverables: [
@@ -115,7 +115,7 @@ const ProjectDetail = () => {
         'SOPs & Checklist Form Designs',
         'Complete Brand Asset Library'
       ],
-      tools: ['After Effects', 'Illustrator', 'Photoshop', 'Premiere Pro', 'Figma', 'InDesign'],
+      tools: ['After Effects', 'Illustrator', 'Photoshop', 'Figma', 'Character Animator', 'Canva'],
       achievements: [
         'Comprehensive digital presence establishment',
         'Interactive content library creation',
@@ -136,13 +136,13 @@ const ProjectDetail = () => {
       ]
     },
     syfol: {
-      title: 'SYFol',
+      title: 'Ticketing & Support System',
       subtitle: 'Brand Revival & Animation',
       description: 'A complete brand revival project featuring logo rework, explainer video recreation, and custom character illustrations for enhanced user engagement.',
       category: 'Brand Revival',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gradient: 'from-emerald-500 to-emerald-600',
-      overview: 'SYFol needed a complete brand revival to modernize their visual identity while maintaining brand recognition and improving user engagement.',
+      overview: 'Designed the brand identity and product visuals for a ticketing and support system built to improve workflow transparency.',
       challenge: 'Revitalize an existing brand without losing its core identity while creating engaging character-driven content.',
       solution: 'Developed a refreshed brand identity with custom character illustrations and recreated all video content with enhanced storytelling.',
       deliverables: [
@@ -155,7 +155,7 @@ const ProjectDetail = () => {
         'Visual Identity System Overhaul',
         'User Interface Element Collection'
       ],
-      tools: ['Adobe Illustrator', 'After Effects', 'Figma', 'Character Animator', 'Photoshop', 'Premiere Pro'],
+      tools: ['Adobe Illustrator', 'After Effects', 'Figma', 'Photoshop'],
       achievements: [
         'Brand personality enhancement through characters',
         'Custom character development and animation',
@@ -182,13 +182,13 @@ const ProjectDetail = () => {
       category: 'Multi-Client Portfolio',
       image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1200',
       gradient: 'from-indigo-500 to-indigo-600',
-      overview: 'This collection represents diverse creative work across multiple clients and industries, demonstrating adaptability and creative range.',
+      overview: 'A showcase of diverse creative works across industries and campaigns.',
       challenge: 'Deliver consistent quality across varied industries while maintaining unique brand identities for each client.',
       solution: 'Applied flexible design methodologies and industry-specific approaches to create tailored solutions for each client.',
       deliverables: [
-        'QDD: Complete Branding + Print + Video Assets',
-        'Aadhyum Group: Website + Logo Rework',
-        'Galaxy Tours: Logo + Brand Identity System',
+        'Complete Branding + Print + Video Assets',
+        'Website + Logo Rework',
+        'Logo + Brand Identity System',
         'Bluewave: Social Media Content Strategy',
         'Cross-Platform Design Solutions',
         'Multi-Industry Creative Applications',
