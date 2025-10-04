@@ -28,7 +28,7 @@ const Projects = () => {
   const projects = [
     {
       id: 'rentasst',
-      title: 'RentAsst',
+      title: 'Smart Rental Platform',
       subtitle: 'Complete Brand Transformation',
       description: 'Full brand identity design including logo, UI/UX for mobile and web applications, explainer videos in Tamil and English, app demo videos, comprehensive print media, SMO posters, and complete website assets.',
       category: 'Full Brand Identity',
@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       id: 'processdrive',
-      title: 'ProcessDrive & X Odoo',
+      title: 'Enterprise Solutions Hub',
       subtitle: 'Enterprise Solutions & Collaboration',
       description: 'Comprehensive rebranding including logo rework and animations, complete website design with full assets, stationery design, event materials, and collaborative work on Odoo integration with custom creatures and GIFs.',
       category: 'Enterprise Branding',
@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       id: 'digitool365',
-      title: 'Digitool365',
+      title: 'ERP SaaS Platform',
       subtitle: 'Creative Digital Ecosystem',
       description: 'Complete logo design with intro animations, comprehensive website assets including vector illustrations and interactive GIFs, explainer video production, and extensive SMO poster designs with proposal documents and SOPs.',
       category: 'Digital Creative Suite',
@@ -55,7 +55,7 @@ const Projects = () => {
     },
     {
       id: 'syfol',
-      title: 'SYFol',
+      title: 'Ticketing & Support System',
       subtitle: 'Brand Revival & Animation',
       description: 'Complete logo rework and full recreation of explainer video with custom illustrations, login page design, and development of unique character illustrations that enhanced brand personality and user engagement.',
       category: 'Brand Revival',
@@ -64,7 +64,7 @@ const Projects = () => {
     },
     {
       id: 'others',
-      title: 'Additional Projects',
+      title: 'Multi-Brand Creative Works',
       subtitle: 'Diverse Creative Portfolio',
       description: 'QDD: Complete branding with print and video assets. Aadhyum Group: Website and logo rework with team collaboration. Galaxy Tours: Logo, branding, and website support. Bluewave Computers: Social media content and video assets.',
       category: 'Multi-Client Portfolio',
