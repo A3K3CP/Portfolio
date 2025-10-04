@@ -451,17 +451,17 @@ const ProjectDetail = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
-                onClick={() => navigate('/#projects')}
+                onClick={() => navigate('/#contact')}
                 className="bg-coral-500 hover:bg-coral-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
               >
-                View More Projects
+                Start a Project
               </button>
-              {/*<button 
+              <button 
                 onClick={() => navigate('/#projects')}
                 className="border-2 border-slate-600 bg-slate-700/50 text-slate-200 hover:bg-slate-600 px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
               >
                 View More Projects
-              </button>*/}
+              </button>
             </div>
           </div>
         </div>
